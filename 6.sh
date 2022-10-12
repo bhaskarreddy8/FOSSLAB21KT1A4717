@@ -1,3 +1,11 @@
+while [ 1 ]
+do 
+echo " 1.os \n 2.shell info \n 3. mouse setting \n 4.cpu \n 5.echo  \n 6.hard disk  \n 7.file \n 8.exit \n "
+  
+
+
+
+
 echo " enter option "
 read op 
 case $op in 
@@ -23,7 +31,8 @@ if [ -f /proc/cpuinfo ]
 cat /proc/cpuinfo
 fi
 ;;
-5) echo " memory information"
+5) echo " m
+ thenemory information"
 if [ -f /proc/meminfo ]
 then
 cat /proc/meminfo
